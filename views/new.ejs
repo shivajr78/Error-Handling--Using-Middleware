@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp | New</title>
+    <style>
+        body{
+            padding-left: 450px;
+            padding-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Write new Chat!</h3>
+    <form action="/chats" method="POST">
+        <input type="text" name="from" placeholder="Write From "> <br><br>
+        <textarea type="text" name="message" placeholder="Write your message"></textarea> <br><br>
+        <input type="text" name="to" placeholder="Write To "> <br><br><br>
+        <button class="create">Submit</button>
+    </form>
+</body>
+</html>

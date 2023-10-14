@@ -1,0 +1,55 @@
+body{
+    margin-left: 25px;
+}
+
+.chat {
+    border: 1px solid crimson;
+    width: 240px;
+    margin-top: 12px;
+    margin-left: 12px;
+    padding: 0px 5px;
+    font-size: 0.7rem;
+    background-color: aliceblue;
+    border-radius: 12px;
+    display: inline-block;
+}
+.msg{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+    background-color: crimson;
+    padding-left: 8px;
+    border-radius: 12px;
+    height: 40px;
+    vertical-align: center;
+}
+
+.create{
+    background-color: crimson;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    width: 140px;
+    margin-top: 50px;
+    color: white;
+}
+.edit{
+    margin-bottom: 2.5px;
+    margin-left: 175px;
+    background-color: crimson;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    border: 1px solid rgb(1, 31, 59);
+    font-weight: 600;
+    color: white;
+}
+.delete{
+    margin-bottom: 2.5px;
+    margin-left: 10px;
+    background-color: rgb(178, 208, 238);
+    border: 1px solid rgb(1, 31, 59);
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
